@@ -1,4 +1,4 @@
-## Applied-Machine-Learning
+# Applied-Machine-Learning
 Applied Machine Learning in Python
 
 # Some Great Informations;
