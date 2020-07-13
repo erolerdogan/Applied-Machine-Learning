@@ -53,3 +53,9 @@ You are overfitting, the next model trained should have a higher value for alpha
 #When do we need high precision or high recall?
 Models need high recall when you need output-sensitive predictions. For example, predicting cancer or predicting terrorists needs a high recall, in other words, you need to cover false negatives as well. It is ok if a non-cancer tumor is flagged as cancerous but a cancerous tumor should not be labeled non-cancerous.
 Similarly, we need high precision in places such as recommendation engines, spam mail detection, etc. Where you don’t care about false negatives but focus more on true positives and false positives. It is ok if spam comes into the inbox folder but a really important mail shouldn’t go into the spam folder.
+
+
+
+
+Data Leakage: 
+https://medium.com/@colin.fraser/the-treachery-of-leakage-56a2d7c4e931
