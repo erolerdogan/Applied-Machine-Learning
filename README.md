@@ -1,6 +1,29 @@
 # Applied-Machine-Learning
 Applied Machine Learning in Python
 
+ 1. Collecting the data
+ 2. Study on the collected data, which features are categorical which
+    features are numerical etc. (learn the data types)
+ 3. Begin to data manipulation / cleaning doing such as removing
+    duplicates, outliers, highly correlated things (i.e. if there are
+    two features male and female remove one of them because if you are
+    not male, you are 100% female.)
+ 4. Visualize your data to observe outliers, correlations etc.
+ 5. If you have categorical datas you need convert them to numerical
+ 6. Separate the dependent and independent features. 
+ 7. Decide what to do based on your how many samples do you have.
+ 8. If it is not too much, it means every samples/records are important for you and consider cross validation
+ 9. After splitting the data, check the datas again. If your features have different units and there are big differences between them, you should consider to do "Normalization or Standardization" methods to use same units/scales
+ 10. Everything has been done. Decide which evaluation metrics you want to choose. Define your goals on the projects. What do you want?
+ 11. Then choose the models. After fitting and predicting process, check your evaluation models, scores. Which one has the highest score?  (While doing this, I suggest you to count the time. Time is really important factor. You should consider it too.)
+
+> One accurate measurement is worth more than a thousand expert opinions
+
+
+You can check one of my project in github here => 
+I hope these steps help you to understand more. These are my point. If someone edits, adds or shows my error, I would be greatly happy. Thanks
+
+
 One accurate measurement is worth more than a thousand expert opinions
 — Admiral Grace Hopper 
 ## Some Great Informations;
